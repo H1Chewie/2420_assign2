@@ -61,11 +61,7 @@ const start = async () => {
 }
 start()
 ```
-<<<<<<< HEAD
-![index.js](./images/step4-5.png)
-=======
-![index][./images/step4-5.png]
->>>>>>> 26b2311d74af95be3ceb233ac5381708a49c8f85
+![index](./images/step4-5.png)
 
 Finally, install Node with Volta in wsl.
 
