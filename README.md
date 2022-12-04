@@ -19,7 +19,7 @@ Install caddy onto your system
 ```tar xvf caddy_2.6.2_linux_amd64.tar.gz```
 Use this command to extract it
 
-![caddy files](./images/step3.5.png)
+![caddy files](./images/step3-5.png)
 
 Give root access and move file to /usr/bin/
 
@@ -61,7 +61,7 @@ const start = async () => {
 }
 start()
 ```
-![index.js][./images/step4.5.png]
+![index.js][./images/step4-5.png]
 
 Finally, install Node with Volta in wsl.
 
@@ -108,7 +108,7 @@ WantedBy=multi-user.target
 ```
 #### Step 6: Install Node with Volta
 
-![volta][./images/step4.6.png]
+![volta][./images/step4-6.png]
 
 #### Step 7: Create hello_web.service file
 
@@ -152,8 +152,8 @@ systemctl status caddy.service
 ```
 Install fastify in the Droplet directories that install contain index.js.
 
-![init][./images/step8.1.png]
-![fastify][./images/step8.2.png]
+![init][./images/step8-1.png]
+![fastify][./images/step8-2.png]
 
 ```
 systemctl enable hello_web.service
@@ -164,6 +164,6 @@ system status hello_web.service
 Step 9: Make sure it works!
 
 ![drop1][./images/step9.png]
-![drop2][./images/step9.5.png]
+![drop2][./images/step9-5.png]
 
 
