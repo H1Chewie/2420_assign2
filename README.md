@@ -61,7 +61,7 @@ const start = async () => {
 }
 start()
 ```
-![index.js][./images/step4-5.png]
+![index.js](./images/step4-5.png)
 
 Finally, install Node with Volta in wsl.
 
@@ -108,11 +108,11 @@ WantedBy=multi-user.target
 ```
 #### Step 6: Install Node with Volta
 
-![volta][./images/step4-6.png]
+![volta](./images/step4-6.png)
 
 #### Step 7: Create hello_web.service file
 
-![hello_web.service][./images/step7.png]
+![hello_web.service](./images/step7.png)
 
 #### Step 8: Use WSL SFTP to Move Files to Droplets
 
@@ -132,7 +132,7 @@ put index.js
 put package.json
 put package-lock.json
 ```
-![sftp][./images/step8.png]
+![sftp](./images/step8.png)
 
 Move the files into the intended directories.
 
@@ -152,8 +152,8 @@ systemctl status caddy.service
 ```
 Install fastify in the Droplet directories that install contain index.js.
 
-![init][./images/step8-1.png]
-![fastify][./images/step8-2.png]
+![init](./images/step8-1.png)
+![fastify](./images/step8-2.png)
 
 ```
 systemctl enable hello_web.service
@@ -163,7 +163,7 @@ system status hello_web.service
 
 Step 9: Make sure it works!
 
-![drop1][./images/step9.png]
-![drop2][./images/step9-5.png]
+![drop1](./images/step9.png)
+![drop2](./images/step9-5.png)
 
 
