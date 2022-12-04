@@ -1,0 +1,13 @@
+[Unit]
+Description=service to start node web app and restart if failure occurs
+After=network-online.target
+
+[Service]
+User=zoro
+Group=zoro
+Type=notify
+ExecStart=/home/zoro/.volta/bin/node /home/zoro/2420-assign-two/src/index.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
